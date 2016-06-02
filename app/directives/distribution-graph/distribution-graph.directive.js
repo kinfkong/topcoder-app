@@ -184,7 +184,7 @@ import Tooltip from 'appirio-tech-react-components/components/Tooltip/Tooltip.js
 
       /* render react tooltip component */
       ReactDOM.unmountComponentAtNode(document.getElementById('chart-tooltip'))
-      ReactDOM.render(<Tooltip popMethod='click'>
+      ReactDOM.render(<Tooltip>
           <div className='tooltip-target'></div>
           <div className='tooltip-body'>
           <div className='tooltip-rating'></div>
